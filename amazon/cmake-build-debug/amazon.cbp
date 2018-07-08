@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="amazon"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/programming tools/amazon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/programming tools/amazon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="amazon">
+				<Option output="F:/programming tools/amazon/cmake-build-debug/amazon.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/programming tools/amazon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 amazon"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="amazon/fast">
+				<Option output="F:/programming tools/amazon/cmake-build-debug/amazon.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/programming tools/amazon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 amazon/fast"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/programming tools/amazon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/amazon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/programming tools/amazon/main.cpp">
+			<Option target="amazon"/>
+		</Unit>
+		<Unit filename="F:/programming tools/amazon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

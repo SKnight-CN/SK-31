@@ -1,0 +1,3 @@
+ToolSet: w64 4.0@F:\GCC
+Options: 
+CMake: 3.8.2@F:\mingw-w64\programming tools\CLion 2017.2.3\bin\cmake\bin\cmake.exe
