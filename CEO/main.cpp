@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <malloc.h>
-
+//have a try
 char map[9][9];
 char map1[9][9];
 

@@ -1,3 +1,3 @@
-F:/programming tools/CEO/cmake-build-debug/CMakeFiles/CEO.dir
-F:/programming tools/CEO/cmake-build-debug/CMakeFiles/edit_cache.dir
-F:/programming tools/CEO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/programs/CEO/cmake-build-debug/CMakeFiles/CEO.dir
+F:/programs/CEO/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/programs/CEO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

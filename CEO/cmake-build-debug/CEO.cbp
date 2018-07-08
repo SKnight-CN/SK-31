@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/programming tools/CEO/cmake-build-debug"/>
+				<Option working_dir="F:/programs/CEO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CEO">
-				<Option output="F:/programming tools/CEO/cmake-build-debug/CEO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/programming tools/CEO/cmake-build-debug"/>
+				<Option output="F:/programs/CEO/cmake-build-debug/CEO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/programs/CEO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 CEO"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 CEO"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CEO/fast">
-				<Option output="F:/programming tools/CEO/cmake-build-debug/CEO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/programming tools/CEO/cmake-build-debug"/>
+				<Option output="F:/programs/CEO/cmake-build-debug/CEO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/programs/CEO/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,37 +55,37 @@
 					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 CEO/fast"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 CEO/fast"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="F:/programming tools/CEO/cmake-build-debug"/>
+				<Option working_dir="F:/programs/CEO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="F:/programming tools/CEO/cmake-build-debug"/>
+				<Option working_dir="F:/programs/CEO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/CEO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/programming tools/CEO/main.cpp">
+		<Unit filename="F:/programs/CEO/main.cpp">
 			<Option target="CEO"/>
 		</Unit>
-		<Unit filename="F:/programming tools/CEO/CMakeLists.txt">
+		<Unit filename="F:/programs/CEO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

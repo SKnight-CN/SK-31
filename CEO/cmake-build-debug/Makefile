@@ -47,10 +47,10 @@ RM = "F:\mingw-w64\programming tools\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "F:\programming tools\CEO"
+CMAKE_SOURCE_DIR = F:\programs\CEO
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "F:\programming tools\CEO\cmake-build-debug"
+CMAKE_BINARY_DIR = F:\programs\CEO\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\programming tools\CEO\cmake-build-debug\CMakeFiles" "F:\programming tools\CEO\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\programs\CEO\cmake-build-debug\CMakeFiles F:\programs\CEO\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\programming tools\CEO\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\programs\CEO\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

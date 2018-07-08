@@ -1,4 +1,4 @@
-"F:\mingw-w64\programming tools\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "F:\programming tools\CEO"
+"F:\mingw-w64\programming tools\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\programs\CEO
 -- The C compiler identification is GNU 5.1.0
 -- The CXX compiler identification is GNU 5.1.0
 -- Check for working C compiler: F:/GCC/bin/gcc.exe
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: F:/programming tools/CEO/cmake-build-debug
+-- Build files have been written to: F:/programs/CEO/cmake-build-debug
