@@ -5,6 +5,7 @@
 #include<algorithm>
 using namespace std;
 //have a try
+//have another try
 struct node1
 {
     int Write_MinStep;
