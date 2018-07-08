@@ -29,9 +29,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -56,45 +53,45 @@ RM = "F:\mingw-w64\programming tools\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\programs\amazon\cmake-build-debug\CMakeFiles\CMakeTmp
+CMAKE_SOURCE_DIR = F:\programs\amazon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\programs\amazon\cmake-build-debug\CMakeFiles\CMakeTmp
+CMAKE_BINARY_DIR = F:\programs\amazon\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/cmTC_9c6ee.dir
+# Target rules for target CMakeFiles/amazon.dir
 
 # All Build rule for target.
-CMakeFiles/cmTC_9c6ee.dir/all:
-	$(MAKE) -f CMakeFiles\cmTC_9c6ee.dir\build.make CMakeFiles/cmTC_9c6ee.dir/depend
-	$(MAKE) -f CMakeFiles\cmTC_9c6ee.dir\build.make CMakeFiles/cmTC_9c6ee.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\programs\amazon\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1,2 "Built target cmTC_9c6ee"
-.PHONY : CMakeFiles/cmTC_9c6ee.dir/all
+CMakeFiles/amazon.dir/all:
+	$(MAKE) -f CMakeFiles\amazon.dir\build.make CMakeFiles/amazon.dir/depend
+	$(MAKE) -f CMakeFiles\amazon.dir\build.make CMakeFiles/amazon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\programs\amazon\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target amazon"
+.PHONY : CMakeFiles/amazon.dir/all
 
 # Include target in all.
-all: CMakeFiles/cmTC_9c6ee.dir/all
+all: CMakeFiles/amazon.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cmTC_9c6ee.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\programs\amazon\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/cmTC_9c6ee.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\programs\amazon\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles 0
-.PHONY : CMakeFiles/cmTC_9c6ee.dir/rule
+CMakeFiles/amazon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\programs\amazon\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/amazon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\programs\amazon\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/amazon.dir/rule
 
 # Convenience name for target.
-cmTC_9c6ee: CMakeFiles/cmTC_9c6ee.dir/rule
+amazon: CMakeFiles/amazon.dir/rule
 
-.PHONY : cmTC_9c6ee
-
-# clean rule for target.
-CMakeFiles/cmTC_9c6ee.dir/clean:
-	$(MAKE) -f CMakeFiles\cmTC_9c6ee.dir\build.make CMakeFiles/cmTC_9c6ee.dir/clean
-.PHONY : CMakeFiles/cmTC_9c6ee.dir/clean
+.PHONY : amazon
 
 # clean rule for target.
-clean: CMakeFiles/cmTC_9c6ee.dir/clean
+CMakeFiles/amazon.dir/clean:
+	$(MAKE) -f CMakeFiles\amazon.dir\build.make CMakeFiles/amazon.dir/clean
+.PHONY : CMakeFiles/amazon.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/amazon.dir/clean
 
 .PHONY : clean
 

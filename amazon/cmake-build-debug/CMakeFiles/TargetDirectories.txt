@@ -1,0 +1,3 @@
+F:/programs/amazon/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/programs/amazon/cmake-build-debug/CMakeFiles/amazon.dir
+F:/programs/amazon/cmake-build-debug/CMakeFiles/edit_cache.dir

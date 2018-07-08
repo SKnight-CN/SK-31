@@ -1,3 +1,0 @@
-F:/programs/amazon/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9c6ee.dir
-F:/programs/amazon/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
-F:/programs/amazon/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir

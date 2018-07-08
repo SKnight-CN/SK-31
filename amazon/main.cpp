@@ -4,7 +4,7 @@
 #include<queue>
 #include<algorithm>
 using namespace std;
-
+//have a try
 struct node1
 {
     int Write_MinStep;

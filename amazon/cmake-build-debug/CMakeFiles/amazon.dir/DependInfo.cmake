@@ -1,15 +1,15 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "F:/programs/amazon/cmake-build-debug/CMakeFiles/feature_tests.c" "F:/programs/amazon/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9c6ee.dir/feature_tests.c.obj"
+set(CMAKE_DEPENDS_CHECK_CXX
+  "F:/programs/amazon/main.cpp" "F:/programs/amazon/cmake-build-debug/CMakeFiles/amazon.dir/main.cpp.obj"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.
