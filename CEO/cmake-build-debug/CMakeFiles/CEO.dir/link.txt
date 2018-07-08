@@ -1,0 +1,3 @@
+"F:\mingw-w64\programming tools\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\CEO.dir/objects.a
+F:\GCC\bin\ar.exe cr CMakeFiles\CEO.dir/objects.a @CMakeFiles\CEO.dir\objects1.rsp
+F:\GCC\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CEO.dir/objects.a -Wl,--no-whole-archive  -o CEO.exe -Wl,--out-implib,libCEO.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CEO.dir\linklibs.rsp
