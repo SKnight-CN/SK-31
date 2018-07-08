@@ -1,0 +1,3 @@
+F:/programming tools/tangle game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+F:/programming tools/tangle game/cmake-build-debug/CMakeFiles/tangle_game.dir
+F:/programming tools/tangle game/cmake-build-debug/CMakeFiles/edit_cache.dir
