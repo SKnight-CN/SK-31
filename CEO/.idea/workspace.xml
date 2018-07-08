@@ -80,7 +80,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../amazon" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -122,12 +122,12 @@
       <workItem from="1530615171074" duration="23000" />
       <workItem from="1530690825658" duration="622000" />
       <workItem from="1530929331077" duration="34000" />
-      <workItem from="1531036831265" duration="339000" />
+      <workItem from="1531036831265" duration="839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33369000" />
+    <option name="totallyTimeSpent" value="33869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
