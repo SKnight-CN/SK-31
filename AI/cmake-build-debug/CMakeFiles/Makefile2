@@ -53,10 +53,10 @@ RM = "F:\mingw-w64\programming tools\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "F:\programming tools\AI"
+CMAKE_SOURCE_DIR = F:\programs\AI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "F:\programming tools\AI\cmake-build-debug"
+CMAKE_BINARY_DIR = F:\programs\AI\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/AI.dir
@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = "F:\programming tools\AI\cmake-build-debug"
 CMakeFiles/AI.dir/all:
 	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/depend
 	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\programming tools\AI\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target AI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\programs\AI\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target AI"
 .PHONY : CMakeFiles/AI.dir/all
 
 # Include target in all.
@@ -75,9 +75,9 @@ all: CMakeFiles/AI.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\programming tools\AI\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\programs\AI\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/AI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\programming tools\AI\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\programs\AI\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/AI.dir/rule
 
 # Convenience name for target.

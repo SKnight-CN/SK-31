@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="F:/programming tools/AI/cmake-build-debug"/>
+				<Option working_dir="F:/programs/AI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AI">
-				<Option output="F:/programming tools/AI/cmake-build-debug/AI.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/programming tools/AI/cmake-build-debug"/>
+				<Option output="F:/programs/AI/cmake-build-debug/AI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/programs/AI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 AI"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 AI"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AI/fast">
-				<Option output="F:/programming tools/AI/cmake-build-debug/AI.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/programming tools/AI/cmake-build-debug"/>
+				<Option output="F:/programs/AI/cmake-build-debug/AI.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/programs/AI/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,37 +55,37 @@
 					<Add directory="F:/GCC/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 AI/fast"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 AI/fast"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="F:/programming tools/AI/cmake-build-debug"/>
+				<Option working_dir="F:/programs/AI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="F:/programming tools/AI/cmake-build-debug"/>
+				<Option working_dir="F:/programs/AI/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programming tools/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/GCC/bin/mingw32-make.exe -f &quot;F:/programs/AI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/programming tools/AI/main.cpp">
+		<Unit filename="F:/programs/AI/main.cpp">
 			<Option target="AI"/>
 		</Unit>
-		<Unit filename="F:/programming tools/AI/CMakeLists.txt">
+		<Unit filename="F:/programs/AI/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

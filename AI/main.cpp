@@ -3,18 +3,24 @@
 #include<time.h>
 #include<stdlib.h>
 #include<malloc.h>
+#include <limits.h>
+#include<math.h>
 
-char map[4][4];
+char map[4][4], map1[4][4];
 clock_t start,finish;
 
-struct NODE {
+struct Chess {
     int x;
     int y;
+    int player;
+    double rate;
     double UCB;
-    struct NODE* son;
+    int win;
+    int visit;
+    Chess *father;
+    Chess *son
 };
 
-NODE head, *current;
 
 int check() {
     int i, j;
@@ -44,75 +50,119 @@ int check() {
         if(ra == 4 || ca == 4 || xa == 4 || ya == 4)
             return 1;
         else if(rb == 4 || cb == 4 || xb == 4 || yb == 4)
-            return -1;
+            return 0;
     }
-    return 0;
+    return -1;
 
 }
 
-void UCT( int player) {
-    srand(time(NULL));
-    int chess;
-    int x, y;
-    double TheTimes;
-    NODE *cur;
-    cur=(NODE*)malloc(sizeof(NODE));
-    cur->son=NULL;
+Chess *FoundMaxUCB() {
+
+}
+
+void UCT( Chess *item) {
+    Chess *q, *head, *temp;
+    char map1[4][4];
+    int start_Time, end_Time;
+    int Win_flag;
+    start_Time = end_Time = clock();
+    head=item->son;
+
+    for (int i=0;i<4;i++)
+        strcpy(map1[i], map[i]);
 
 
-    TheTimes=(double)((finish-start)/CLOCKS_PER_SEC);
-    if (TheTimes<=2.000000) {
-        a:chess=rand()%16;
-        if (chess%4==0) {
-            x=chess/4-1;
-            y=3;
-        }
-        else {
-            x=chess/4;
-            y=chess%4-1;
-        }
-        if (map[x][y]==' ') {
-            if (player&1)
-                map[x][y]='o';
-            else
-                map[x][y]='x';
-        }
+
+    while (end_Time - start_Time<=3) {
+        q=FoundMaxUCB();
+        if (map[q->x][q->y]=='x')
+            q->player=0;
         else
-            goto a;
-        cur->x=x;
-        cur->y=y;
-        if (head.son==NULL) {
-            cur->son=head.son;
-            head.son=cur;
-            current=cur;
+            q->player=1;
+        if (check()==q->player) {
+            q->rate=1.00;
+            q->UCB=ULONG_MAX;
+            q->win++;
+            q->visit++;
+            Win_flag=q->player;
+            temp=q->father;
+            while (q->father!=NULL) {
+                q=q->father;
+                q->visit++;
+                if (q->father->player==Win_flag)
+                    q->win++;
+                q->rate=(double)q->win/q->visit;
+                q->UCB=q->rate+sqrt(2*log(totalvisit)/q->visit);
+            }
+            temp=NULL;
+            q=head;
+            for (int i=0;i<4;i++)
+                strcpy(map1[i], map[i]);
         }
-        else {
-            current->son=cur;
-            current=cur;
+        else if(q->visit<SIM_MAX) {
+            int isWin=MCT(1-q->player);
+            Win_flag = q->player;
+            if (isWIN)
+                q->win++;
+            else
+                Win_flag=1-q->player;
+            q->visit++;
+            q->rate = (double)q->win / q->visit;
+            if (q->visit >= SIM_MIN)
+                q->UCB =q->rate+sqrt(2*log(totalvisit)/q->visit);
+            while (q->father!=NULL) {
+                q=q->father;
+                q->visit++;
+                if (q->father->player==Win_flag)
+                    q->win++;
+                q->rate=(double)q->win/q->visit;
+                q->UCB=q->rate+sqrt(2*log(totalvisit)/q->visit);
+            }
+            temp=NULL;
+            q=head;
+            for (int i=0;i<4;i++)
+                strcpy(map1[i], map[i]);
         }
-
-        finish=clock();
+        else if (q->visit>=SIM_MAX) {
+            if (q->son != NULL) q = q->son;//有儿子了直接往下走
+            else
+            {
+                q->player = 3 - q->player;//给对手生成招法
+                Searchmove();
+                q->player = 3 - q->player;//生成完记得换回来
+                //如果需要加多线程，这一块必锁
+                if (q->son == NULL)//生成失败
+                {
+                    //即已经分出胜负，正常操作即可
+                }
+                else q = q->son;
+            }
+        }
+        end_Time=clock();
     }
-
-
 }
 
 
 int main (void) {
-    for (int i=0;i<4;i++)
+    for (int i=0;i<4;i++) {
         strcpy(map[i], "    ");
+        strcpy(map1[i], "    ");
+    }
     int x, y;
-    NODE chess;
-    head.son=NULL;
 
 
     while (1) {
         printf ("your turn:");
         scanf ("%d %d", x, y);
         map[x][y]='x';
-        start=clock();
-        if (check()==0) {
-            UCT( 1);
+        if (check()==-1) {
+            for (int i=0;i<4;i++)
+                for (int j=0;j<4;j++) {
+                    if (map1[i][j]==' ') {
+                        map1[i][j] = 'o';
+                        UCT();
+                    }
+                }
             printf ("SK chose (%d,%d)\n", chess.x, chess.y);
             for (int i=0;i<4;i++) {
                 for (int j = 0; j < 4; j++)

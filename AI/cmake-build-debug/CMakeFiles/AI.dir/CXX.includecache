@@ -6,27 +6,19 @@
 
 #IncludeRegexTransform: 
 
-F:/programming tools/AI/main.cpp
-iostream
--
-cstring
--
-cstdlib
--
-cstdio
--
-queue
--
-vector
--
-algorithm
--
-map
--
-set
--
-stack
+F:/programs/AI/main.cpp
+stdio.h
 -
 string.h
+-
+time.h
+-
+stdlib.h
+-
+malloc.h
+-
+limits.h
+-
+math.h
 -
 
